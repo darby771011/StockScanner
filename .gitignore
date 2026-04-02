@@ -1,15 +1,19 @@
-# 忽略 Python 虛擬環境
-venv/
-.venv/
-env/
+# 忽略編譯結果 (最重要！)
+[Bb]in/
+[Ob]j/
 
-# 忽略編譯後的暫存檔
-__pycache__/
-*.py[cod]
+# 忽略 Visual Studio 產生的設定與快取
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
 
-# 忽略 VS Code 設定
-.vscode/
+# 忽略 NuGet 套件資料夾
+packages/
 
-# 忽略系統檔案
+# 忽略測試結果
+TestResults/
+
+# 忽略作業系統暫存
 .DS_Store
 Thumbs.db
